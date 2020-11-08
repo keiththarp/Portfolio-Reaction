@@ -5,7 +5,7 @@ export default function About() {
     <section>
       <div>
         About
-        </div>
+      </div>
 
     </section>
   )

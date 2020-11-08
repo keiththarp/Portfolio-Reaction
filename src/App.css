@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Styles */
 nav {
   display: flex;
   justify-content: space-around;
@@ -12,14 +17,17 @@ nav {
   background-color: rgb(75, 75, 75);
 }
 
-.logo h1 {
+.logo h1, a {
   color: rgb(223, 223, 223);
-  font-size: 30px;
+  font-size: 35px;
+  font-weight: 500;
+  text-decoration: none;
 }
 
 .nav-bar{
   display: flex;
   justify-content: space-around;
+  /* Fix the below line for narrow mobile */
   width: 35%;
 }
 
@@ -32,4 +40,61 @@ nav {
   text-decoration: none;
   letter-spacing: 3px;
   font-size: 15px;
+}
+
+/* Header Styles */
+header {
+  background-image: url("./style-images/Keith-Tharp-port-bg-narrow.jpg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #0d8dd9;
+  height: 92vh;
+  width: 100%;
+}
+
+div.main-title {
+  color: #e7e7e7;
+  padding: 150px 0px 0px 15%;
+}
+
+.main-title h3 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.main-title h1 {
+  font-size: 85px;
+  font-weight: 500;
+}
+
+/* Small screen styles */
+
+@media only screen and (min-width: 1100px) {
+  /* Header styles */
+  div.main-title {
+  top: 255px;
+  }
+  header {
+    background-image: url("./style-images/Keith-Tharp-port-bg.jpg");
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  /* Header styles */
+  div.main-title {
+    padding: 150px 0px 0px 10%;
+  }
+
+  .main-title h1 {
+    font-size: 14vw;
+  }
+
+  .main-title h3 {
+    font-size: 8vw;
+  }
+
+  header {
+    background-image: url("./style-images/Keith-Tharp-port-bg-mob.jpg");
+  }
 }
