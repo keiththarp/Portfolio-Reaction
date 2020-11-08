@@ -13,7 +13,7 @@ export default function Portfolio() {
           return <ProjectCard key={index} project={project} />;
         })}
       </div>
-
+      <div className="portfolio-buffer"></div>
     </section>
   )
 

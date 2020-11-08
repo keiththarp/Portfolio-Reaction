@@ -6,6 +6,7 @@ import Home from './views/Home';
 import About from './views/About';
 import Contact from './views/Contact';
 import Portfolio from './views/Portfolio';
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/portfolio" exact component={Portfolio} />
           <Route path="/contact" exact component={Contact} />
         </Switch>
+        <Footer />
       </div>
     </BrowserRouter>
   );

@@ -167,6 +167,9 @@ div.portfolio-container {
   font-size: 1.3em;
   padding: 25px 35px;
 }
+div.portfolio-buffer {
+  padding: 125px;
+}
 
 /* Card Styles */
 div.project-card {
@@ -188,6 +191,20 @@ img.portfolio-icon {
 }
 .project-card a:hover {
   color: #D97A43;
+}
+
+/* Footer styles */
+section.footer-section {
+  margin-top: 10px;
+  padding: 3px;
+  background-color: #D97A43;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 /* Small screen styles */
