@@ -5,18 +5,18 @@ export default function Nav() {
   return (
     <nav>
       <div className="logo">
-        <Link to='/'>
+        <Link to='/Portfolio-Reaction/'>
           <h1>Keith Tharp</h1>
         </Link>
       </div>
       <ul className="nav-bar">
-        <Link to='/about'>
+        <Link to='/Portfolio-Reaction/about'>
           <li>About</li>
         </Link>
-        <Link to='/portfolio'>
+        <Link to='/Portfolio-Reaction/portfolio'>
           <li>Portfolio</li>
         </Link>
-        <Link to='/contact'>
+        <Link to='/Portfolio-Reaction/contact'>
           <li>Contact</li>
         </Link>
       </ul>
