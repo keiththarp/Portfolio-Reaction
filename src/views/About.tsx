@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section className="about-section">
       <div className="about-container">
-        <img className="about-photo" alt="Keith Tharp" src="./images/keith-tharp.jpg" />
+        <img className="about-photo" alt="Keith Tharp" src="./Portfolio-Reaction/public/images/keith-tharp.jpg" />
         <h2>About Me</h2>
         <p><b>Full-stack web developer</b> building on my marketing and entrepreneurial background to
         create enjoyable web experiences.</p>
