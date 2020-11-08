@@ -8,17 +8,22 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+hr.my-hr {
+  background-color: #D97A43;
+  margin-bottom: 15px;
+}
+
 /* Navbar Styles */
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: rgb(75, 75, 75);
+  background-color: #D97A43;
 }
 
 .logo h1, a {
-  color: rgb(223, 223, 223);
+  color: #e7e7e7;
   font-size: 35px;
   font-weight: 500;
   text-decoration: none;
@@ -36,19 +41,19 @@ nav {
 }
 
 .nav-bar a {
-  color: rgb(223, 223, 223);
+  color: #e7e7e7;
   text-decoration: none;
   letter-spacing: 3px;
   font-size: 15px;
 }
 
-/* Header Styles */
+/* Home Styles */
 header {
   background-image: url("./style-images/Keith-Tharp-port-bg-narrow.jpg");
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
-  background-color: #0d8dd9;
+  background-color: #0367A6;
   height: 92vh;
   width: 100%;
 }
@@ -66,22 +71,94 @@ div.main-title {
 .main-title h1 {
   font-size: 85px;
   font-weight: 500;
+  position: relative;
+  z-index: 9;
+}
+div.byline {
+  padding-left: 5px;
+  position: relative;
+  bottom: 30px;
+  background-color: #D97A43;
+}
+
+/* About Styles */
+section.about-section {
+  background-image: url("./style-images/2nd-page-bg.jpg");
+  background-size: contain;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-color: #0367A6;
+  height: 92vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.about-container {
+  width: 75%;
+  color: #e7e7e7;
+  height: fit-content;
+  background-color: #0367A6;
+  font-size: 1.3em;
+  padding: 25px 35px;
+}
+.about-container h2 {
+  font-size: 2em;
+  color: #D97A43;
+}
+img.about-photo {
+  width: 200px;
+  border: solid 2px #e7e7e7;
+  border-radius: 100px;
+  float: right;
+  margin: 0px 0px 10px 10px;
+  
+  left: 50%;
+}
+
+/* Contact styles */
+
+.contact-list li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.contact-list a, span {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+img.contact-icon {
+  width: 35px;
+  margin-right: 25px;
+}
+img.contact-photo {
+  width: 200px;
+  border: solid 2px #e7e7e7;
+  float: left;
+  margin: 3px 30px 10px 0px;
+  left: 50%;
 }
 
 /* Small screen styles */
 
 @media only screen and (min-width: 1100px) {
-  /* Header styles */
+  /* Home styles */
   div.main-title {
-  top: 255px;
+  top: 200px;
   }
   header {
     background-image: url("./style-images/Keith-Tharp-port-bg.jpg");
   }
+
+  /* About styles */
+  section.about-section {
+    padding-top: 100px;
+  }
 }
 
 @media only screen and (max-width: 640px) {
-  /* Header styles */
+  /* Home styles */
   div.main-title {
     padding: 150px 0px 0px 10%;
   }
@@ -97,4 +174,18 @@ div.main-title {
   header {
     background-image: url("./style-images/Keith-Tharp-port-bg-mob.jpg");
   }
+
+   /* About styles */
+   section.about-section {
+    padding-top: 50px;
+  }
+  div.byline {
+    bottom: 20px;
+  }
 }
+@media only screen and (max-width: 400px) {
+  div.byline {
+    bottom: 15px;
+  }
+}
+
