@@ -49,7 +49,7 @@ nav {
 
 /* Home Styles */
 header {
-  background-image: url("./style-images/Keith-Tharp-port-bg-narrow.jpg");
+  background-image: url("./assets/style-images/Keith-Tharp-port-bg-narrow.jpg");
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
@@ -83,7 +83,7 @@ div.byline {
 
 /* About Styles */
 section.about-section {
-  background-image: url("./style-images/2nd-page-bg.jpg");
+  background-image: url("./assets/style-images/2nd-page-bg.jpg");
   background-size: contain;
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -140,6 +140,56 @@ img.contact-photo {
   left: 50%;
 }
 
+/* Portfolio Styles */
+section.portfolio-section {
+  background-image: url("./assets/style-images/2nd-page-bg.jpg");
+  background-size: contain;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-color: #0367A6;
+  width: 100%;
+}
+div.portfolio-header {
+  padding-top: 35px;
+  padding-left: 10vw;
+  color: #e7e7e7;
+}
+.portfolio-header h2 {
+  font-size: 3em;
+}
+div.portfolio-container {
+  /* width: 85%; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #e7e7e7;
+  height: fit-content;
+  font-size: 1.3em;
+  padding: 25px 35px;
+}
+
+/* Card Styles */
+div.project-card {
+  width: 420px;
+  border: 2px solid #e7e7e7;
+  background-color: #0367A6;
+  padding: 10px;
+  margin: 0px 15px 15px 15px;
+}
+img.card-image {
+  width: 400px;
+}
+img.portfolio-icon {
+  width: 20px;
+  margin: 5px 10px 5px 0px;
+}
+.project-card a {
+  font-size: 1.5em;
+}
+.project-card a:hover {
+  color: #D97A43;
+}
+
 /* Small screen styles */
 
 @media only screen and (min-width: 1100px) {
@@ -148,7 +198,7 @@ img.contact-photo {
   top: 200px;
   }
   header {
-    background-image: url("./style-images/Keith-Tharp-port-bg.jpg");
+    background-image: url("./assets/style-images/Keith-Tharp-port-bg.jpg");
   }
 
   /* About styles */
@@ -172,7 +222,7 @@ img.contact-photo {
   }
 
   header {
-    background-image: url("./style-images/Keith-Tharp-port-bg-mob.jpg");
+    background-image: url("./assets/style-images/Keith-Tharp-port-bg-mob.jpg");
   }
 
    /* About styles */
