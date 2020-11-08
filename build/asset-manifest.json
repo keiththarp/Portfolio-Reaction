@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.15ea919a.chunk.css",
+    "main.js": "/static/js/main.317b162c.chunk.js",
+    "main.js.map": "/static/js/main.317b162c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7c728b94.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7c728b94.js.map",
+    "static/js/2.c34c593e.chunk.js": "/static/js/2.c34c593e.chunk.js",
+    "static/js/2.c34c593e.chunk.js.map": "/static/js/2.c34c593e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.15ea919a.chunk.css.map": "/static/css/main.15ea919a.chunk.css.map",
+    "static/js/2.c34c593e.chunk.js.LICENSE.txt": "/static/js/2.c34c593e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/Keith-Tharp-port-bg.fea84e35.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c728b94.js",
+    "static/js/2.c34c593e.chunk.js",
+    "static/css/main.15ea919a.chunk.css",
+    "static/js/main.317b162c.chunk.js"
+  ]
+}
