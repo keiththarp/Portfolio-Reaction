@@ -1,15 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 
-const navBar = document.querySelector('.nav-bar');
-
-const burgerReveal = () => {
-  navBar?.classList.toggle('mobile-menu-display');
-  console.log("wtf!?!! Gah!! So effed up!!");
-
-};
-
 export default function Nav() {
+  const [navActive, setNavActive] = useState(false);
+
+  const burgerReveal = () => {
+    setNavActive(!navActive);
+  };
 
   return (
     <nav>
@@ -18,7 +15,7 @@ export default function Nav() {
           <h1>Keith Tharp</h1>
         </Link>
       </div>
-      <ul className="nav-bar">
+      <ul className={`nav-bar ${navActive ? "mobile-menu-display" : null}`}>
         <Link to='/about'>
           <li onClick={burgerReveal}>About</li>
         </Link>

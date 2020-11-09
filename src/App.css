@@ -90,7 +90,7 @@ div.view-container {
 }
 
 /* Home Styles */
-header {
+header.home-header {
   background-image: url("./assets/style-images/Keith-Tharp-port-bg-narrow.jpg");
   background-size: cover;
   background-position: right;
