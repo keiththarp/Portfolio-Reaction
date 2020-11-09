@@ -14,18 +14,18 @@ export default function Nav() {
   return (
     <nav>
       <div className="logo">
-        <Link to='/Portfolio-Reaction/'>
+        <Link to='/'>
           <h1>Keith Tharp</h1>
         </Link>
       </div>
       <ul className="nav-bar">
-        <Link to='/Portfolio-Reaction/about'>
+        <Link to='/about'>
           <li onClick={burgerReveal}>About</li>
         </Link>
-        <Link to='/Portfolio-Reaction/portfolio'>
+        <Link to='/portfolio'>
           <li onClick={burgerReveal}>Portfolio</li>
         </Link>
-        <Link to='/Portfolio-Reaction/contact'>
+        <Link to='/contact'>
           <li onClick={burgerReveal}>Contact</li>
         </Link>
       </ul>
