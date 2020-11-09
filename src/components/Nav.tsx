@@ -5,6 +5,8 @@ const navBar = document.querySelector('.nav-bar');
 
 const burgerReveal = () => {
   navBar?.classList.toggle('mobile-menu-display');
+  console.log("wtf!?!!");
+
 };
 
 export default function Nav() {

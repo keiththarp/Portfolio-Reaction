@@ -2,8 +2,8 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="about-section">
-      <div className="about-container">
+    <section className="view-section">
+      <div className="view-container">
         <img className="about-photo" alt="Keith Tharp" src="./images/keith-tharp.jpg" />
         <h2>About Me</h2>
         <p><b>Full-stack web developer</b> building on my marketing and entrepreneurial background to
@@ -15,7 +15,7 @@ export default function About() {
         Using API queries from multiple sources we save and display a user's selection in a cleanly designed single
         page app.</p>
       </div>
-
+      <div className="view-buffer"></div>
     </section>
   )
 

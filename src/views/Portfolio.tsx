@@ -4,8 +4,8 @@ import Projects from "../assets/data/projects"
 
 export default function Portfolio() {
   return (
-    <section className="portfolio-section">
-      <div className="portfolio-header">
+    <section className="view-section">
+      <div className="view-header">
         <h2>Portfolio</h2>
       </div>
       <div className="portfolio-container">
@@ -13,7 +13,7 @@ export default function Portfolio() {
           return <ProjectCard key={index} project={project} />;
         })}
       </div>
-      <div className="portfolio-buffer"></div>
+      <div className="view-buffer"></div>
     </section>
   )
 

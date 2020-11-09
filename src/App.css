@@ -15,11 +15,13 @@ hr.my-hr {
 
 /* Navbar Styles */
 nav {
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
   background-color: #D97A43;
+  z-index: 999;
 }
 
 .logo h1, a {
@@ -30,6 +32,7 @@ nav {
 }
 
 .nav-bar{
+  position: relative;
   display: flex;
   justify-content: space-around;
   width: 45%;
@@ -54,6 +57,34 @@ nav {
 }
 .mobile-menu {
   display: none;
+}
+
+/* View Styles */
+section.view-section {
+  background-image: url("./assets/style-images/2nd-page-bg.jpg");
+  background-size: contain;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-color: #0367A6;
+  width: 100%;
+  min-height: 92vh;
+}
+div.view-header {
+  padding-top: 35px;
+  padding-left: 10vw;
+  color: #D97A43;
+}
+.view-header h2 {
+  font-size: 3em;
+}
+div.view-container {
+  width: 75%;
+  margin: auto;
+  color: #e7e7e7;
+  height: fit-content;
+  background-color: #0367A6;
+  font-size: 1.3em;
+  padding: 25px 35px;
 }
 
 /* Home Styles */
@@ -91,20 +122,9 @@ div.byline {
 }
 
 /* About Styles */
-section.about-section {
-  background-image: url("./assets/style-images/2nd-page-bg.jpg");
-  background-size: contain;
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-color: #0367A6;
-  height: 92vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 div.about-container {
   width: 75%;
+  margin: auto;
   color: #e7e7e7;
   height: fit-content;
   background-color: #0367A6;
@@ -150,22 +170,6 @@ img.contact-photo {
 }
 
 /* Portfolio Styles */
-section.portfolio-section {
-  background-image: url("./assets/style-images/2nd-page-bg.jpg");
-  background-size: contain;
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-color: #0367A6;
-  width: 100%;
-}
-div.portfolio-header {
-  padding-top: 35px;
-  padding-left: 10vw;
-  color: #e7e7e7;
-}
-.portfolio-header h2 {
-  font-size: 3em;
-}
 div.portfolio-container {
   /* width: 85%; */
   display: flex;
@@ -176,7 +180,7 @@ div.portfolio-container {
   font-size: 1.3em;
   padding: 25px 35px;
 }
-div.portfolio-buffer {
+div.view-buffer {
   padding: 125px;
 }
 
@@ -227,8 +231,7 @@ section.footer-section {
     background-image: url("./assets/style-images/Keith-Tharp-port-bg.jpg");
   }
 
-  /* About styles */
-  section.about-section {
+  section.view-section {
     padding-top: 100px;
   }
 }
@@ -236,6 +239,7 @@ section.footer-section {
 @media only screen and (max-width: 640px) {
   body {
     overflow-x: hidden;
+    padding-bottom: 30px;
   }
   /* Nav styles */
   .nav-bar {
@@ -257,7 +261,17 @@ section.footer-section {
   }
 
   .mobile-menu-display {
-    transform: translateX(0%);
+    transform: translateY(0%);
+  }
+
+  /* View Styles */
+  div.view-container {
+    width: 90%;
+    padding: 15px 15px;
+  }
+
+  section.view-section {
+    padding-top: 25px;
   }
 
   /* Home styles */
@@ -277,10 +291,6 @@ section.footer-section {
     background-image: url("./assets/style-images/Keith-Tharp-port-bg-mob.jpg");
   }
 
-   /* About styles */
-   section.about-section {
-    padding-top: 50px;
-  }
   div.byline {
     bottom: 20px;
   }
