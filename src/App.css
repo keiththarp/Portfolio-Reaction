@@ -166,13 +166,12 @@ img.contact-photo {
   width: 200px;
   border: solid 2px #e7e7e7;
   float: left;
-  margin: 3px 30px 10px 0px;
+  margin: 3px 30px 30px 0px;
   left: 50%;
 }
 
 /* Portfolio Styles */
 div.portfolio-container {
-  /* width: 85%; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -274,6 +273,7 @@ section.footer-section {
   div.view-container {
     width: 90%;
     padding: 15px 15px;
+    justify-content: center;
   }
 
   section.view-section {
@@ -300,7 +300,34 @@ section.footer-section {
   div.byline {
     bottom: 20px;
   }
+
+  div.portfolio-container {
+    width: 100%;
+  }
+  /* Card Styles */
+  div.project-card {
+    width: 98%;
+    border: 2px solid #e7e7e7;
+    background-color: #0367A6;
+    padding: 10px;
+    margin: 0px 15px 15px 15px;
+  }
+  img.card-image {
+    width: 90%;
+  }
+  /* Contact Styles */
+  .contact-list a, span {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  
+  img.contact-icon {
+    width: 25px;
+    margin-right: 20px;
+  }
+
 }
+
 @media only screen and (max-width: 400px) {
   div.byline {
     bottom: 15px;
