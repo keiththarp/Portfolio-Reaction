@@ -1,7 +1,14 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
+const navBar = document.querySelector('.nav-bar');
+
+const burgerReveal = () => {
+  navBar?.classList.toggle('mobile-menu-display');
+};
+
 export default function Nav() {
+
   return (
     <nav>
       <div className="logo">
@@ -11,15 +18,20 @@ export default function Nav() {
       </div>
       <ul className="nav-bar">
         <Link to='/Portfolio-Reaction/about'>
-          <li>About</li>
+          <li onClick={burgerReveal}>About</li>
         </Link>
         <Link to='/Portfolio-Reaction/portfolio'>
-          <li>Portfolio</li>
+          <li onClick={burgerReveal}>Portfolio</li>
         </Link>
         <Link to='/Portfolio-Reaction/contact'>
-          <li>Contact</li>
+          <li onClick={burgerReveal}>Contact</li>
         </Link>
       </ul>
+      <div className="mobile-menu" onClick={burgerReveal}>
+        <div className="top-bun"></div>
+        <div className="burger-patty"></div>
+        <div className="bottom-bun"></div>
+      </div>
     </nav>
   )
 
