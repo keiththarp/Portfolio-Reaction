@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ProjectCard from "../components/Project-Card"
 import Projects from "../assets/data/projects"
 
