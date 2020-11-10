@@ -252,13 +252,19 @@ section.footer-section {
     position: absolute;
     right: 0px;
     top: 8vh;
-    height: 225px;
+    height: 0px;
     background-color: #D97A43;
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: translateX(100%);
-    transition: transform .5s ease-in;
+    /* transform: translateX(100%);
+    transition: transform .5s ease-in; */
+    transition: height 500ms ease-in;
+  }
+
+  .nav-bar li {
+    font-size: 0px;
+    transition: font-size 500ms ease-in;
   }
 
   .mobile-menu {
@@ -267,7 +273,10 @@ section.footer-section {
   }
 
   .mobile-menu-display {
-    transform: translateY(0%);
+    height: 225px;
+  }
+  .mobile-menu-display li {
+    font-size: 1em;
   }
 
   /* View Styles */
