@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-Reaction/static/css/main.c6f9fd5b.chunk.css",
+    "main.css": "/Portfolio-Reaction/static/css/main.06326ed8.chunk.css",
     "main.js": "/Portfolio-Reaction/static/js/main.6c0c156b.chunk.js",
     "main.js.map": "/Portfolio-Reaction/static/js/main.6c0c156b.chunk.js.map",
     "runtime-main.js": "/Portfolio-Reaction/static/js/runtime-main.46ec0c6f.js",
@@ -8,14 +8,14 @@
     "static/js/2.c5dc2e06.chunk.js": "/Portfolio-Reaction/static/js/2.c5dc2e06.chunk.js",
     "static/js/2.c5dc2e06.chunk.js.map": "/Portfolio-Reaction/static/js/2.c5dc2e06.chunk.js.map",
     "index.html": "/Portfolio-Reaction/index.html",
-    "static/css/main.c6f9fd5b.chunk.css.map": "/Portfolio-Reaction/static/css/main.c6f9fd5b.chunk.css.map",
+    "static/css/main.06326ed8.chunk.css.map": "/Portfolio-Reaction/static/css/main.06326ed8.chunk.css.map",
     "static/js/2.c5dc2e06.chunk.js.LICENSE.txt": "/Portfolio-Reaction/static/js/2.c5dc2e06.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Portfolio-Reaction/static/media/Keith-Tharp-port-bg.fea84e35.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.46ec0c6f.js",
     "static/js/2.c5dc2e06.chunk.js",
-    "static/css/main.c6f9fd5b.chunk.css",
+    "static/css/main.06326ed8.chunk.css",
     "static/js/main.6c0c156b.chunk.js"
   ]
 }
