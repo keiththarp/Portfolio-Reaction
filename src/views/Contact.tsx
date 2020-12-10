@@ -14,6 +14,7 @@ export default function Contact() {
           <li><a href="https://github.com/keiththarp"><img className="contact-icon" src="./images/github-icon.png" alt="github icon" />View my repos on Github</a></li>
           <li><a href="https://www.linkedin.com/in/keithstharp/"><img className="contact-icon" src="./images/linkedIn.png" alt="linkedIn icon" />My LinkedIn profile</a></li>
         </ul>
+        <p><a href="https://bit.ly/KT-Resume">My resume.</a></p>
 
       </div>
       <div className="view-buffer"></div>
