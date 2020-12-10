@@ -22,5 +22,4 @@ export default function Contact() {
       <div className="view-buffer"></div>
     </section>
   )
-
 };
