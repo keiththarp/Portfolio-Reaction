@@ -149,6 +149,10 @@ img.about-photo {
 
 /* Contact styles */
 
+ul.contact-list {
+  width: 60%;
+}
+
 .contact-list li {
   list-style: none;
   margin-bottom: 10px;
@@ -235,6 +239,14 @@ section.footer-section {
   section.view-section {
     padding-top: 100px;
   }
+}
+
+a.resume {
+  display: block;
+  font-size: 18;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #D97A43;
 }
 
 /* 
