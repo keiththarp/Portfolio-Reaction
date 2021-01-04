@@ -1,7 +1,7 @@
 {
   "name": "keith-tharp-portfolio",
   "version": "0.1.0",
-  "homepage": "https://keiththarp.github.io/Portfolio-Reaction/",
+  "homepage": "https://keiththarp.github.io/keith-tharp/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",

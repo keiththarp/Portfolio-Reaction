@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <BrowserRouter basename="/Portfolio-Reaction">
+    <BrowserRouter basename="/keith-tharp">
       <div className="App">
         <Nav />
         <Switch>
