@@ -10,9 +10,9 @@ export default function About() {
         <p>As a developer I enjoy combining the creativity and problem solving from my past careers
           into real solutions for clients and internet users.</p>
         <ul>
-          <li>Currently as an intern at KnownPoint Technologies I'm using React and Redux to help users complete their onboarding process.</li>
-          <li>I'm also working with a passionate group on a personal side project Typescript in React Native aimed at helping folks in recovery.</li>
-          <li>And I'm excited to be working with a mentor on a health tracking app in Angular geared toward helping folks solve health questions.</li>
+          <li>Currently as an intern at KnownPoint Technologies I'm using <b>React</b> and <b>Redux</b> to help users complete their onboarding process.</li>
+          <li>I'm also working with a passionate group on a personal side project in <b>Typescript</b> and <b>React Native</b> to help folks stay or get back on their path to recovery.</li>
+          <li>And I'm excited to be working with a mentor on a health tracking app in <b>Angular</b> helping folks find correlations to solve their health mysteries.</li>
         </ul>
         <p><a className="resume" href="https://bit.ly/KT-Resume">My resume.</a></p>
       </div>
