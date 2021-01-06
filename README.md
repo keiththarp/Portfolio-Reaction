@@ -2,7 +2,7 @@
 
 This is a nice improvement functionally and aesthetically over the last iteration of my personal coding portfolio.
 
-<a href="https://keiththarp.github.io/Portfolio-Reaction/">View live page</a>
+<a href="https://keiththarp.github.io/keith-tharp/">View live page</a>
 
 ## Details
 Adding some projects and putting React and TypeScript to use for this iteration.
