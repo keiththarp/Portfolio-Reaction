@@ -12,8 +12,8 @@ export default function Contact() {
         <ul className="contact-list">
           <li><span><img className="contact-icon" src="./images/phone.png" alt="phone icon" />6O3.49O.O8IO Call || Text</span></li>
           <li><span><img className="contact-icon" src="./images/mail.png" alt="email icon" />KeithSTharp@gmail.com</span></li>
-          <li><a href="https://github.com/keiththarp"><img className="contact-icon" src="./images/github-icon.png" alt="github icon" />My repos</a></li>
-          <li><a href="https://www.linkedin.com/in/keithstharp/"><img className="contact-icon" src="./images/linkedIn.png" alt="linkedIn icon" />My LinkedIn</a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://github.com/keiththarp"><img className="contact-icon" src="./images/github-icon.png" alt="github icon" />My repos</a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/keithstharp/"><img className="contact-icon" src="./images/linkedIn.png" alt="linkedIn icon" />My LinkedIn</a></li>
         </ul>
         <br />
         <ResumeLink />
