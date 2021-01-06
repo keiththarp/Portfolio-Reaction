@@ -1,4 +1,5 @@
 import React from "react";
+import ResumeLink from '../components/ResumeLink'
 
 export default function Contact() {
   return (
@@ -15,9 +16,7 @@ export default function Contact() {
           <li><a href="https://www.linkedin.com/in/keithstharp/"><img className="contact-icon" src="./images/linkedIn.png" alt="linkedIn icon" />My LinkedIn</a></li>
         </ul>
         <br />
-        <div>
-          <p><a className="resume" href="https://bit.ly/KT-Resume">My resume.</a></p>
-        </div>
+        <ResumeLink />
       </div>
       <div className="view-buffer"></div>
     </section>

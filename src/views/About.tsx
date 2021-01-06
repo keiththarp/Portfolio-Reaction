@@ -1,4 +1,5 @@
 import React from "react";
+import ResumeLink from '../components/ResumeLink'
 
 export default function About() {
   return (
@@ -14,7 +15,7 @@ export default function About() {
           <li>I'm also working with a passionate group on a personal side project in <b>Typescript</b> and <b>React Native</b> to help folks stay or get back on their path to recovery.</li>
           <li>And I'm excited to be working with a mentor on a health tracking app in <b>Angular</b> helping folks find correlations to solve their health mysteries.</li>
         </ul>
-        <p><a className="resume" href="https://bit.ly/KT-Resume">My resume.</a></p>
+        <ResumeLink />
       </div>
       <div className="view-buffer"></div>
     </section>
